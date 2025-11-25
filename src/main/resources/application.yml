@@ -1,0 +1,16 @@
+server:
+  port: 8888 # સર્વર પોર્ટ 8888 પર ચાલશે
+
+spring:
+  application:
+    name: config-server # સર્વિસનું નામ
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/YourUsername/lms-config-repo.git # તમારા Git રિપોઝીટરીનું URL
+          # જો રિપોઝીટરી પ્રાઇવેટ હોય તો નીચેના ગુણધર્મો ઉમેરો:
+          # username: your-git-username
+          # password: your-git-password/token
+          search-paths: # રિપોઝીટરીમાં રૂપરેખાંકન ફાઇલો ક્યાં શોધવી
+            - 'configurations'
