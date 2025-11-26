@@ -8,9 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/YourUsername/lms-config-repo.git # તમારા Git રિપોઝીટરીનું URL
+          uri: https://github.com/dodiamahesh/lms-config-repo.git # તમારા Git રિપોઝીટરીનું URL
           # જો રિપોઝીટરી પ્રાઇવેટ હોય તો નીચેના ગુણધર્મો ઉમેરો:
-          # username: your-git-username
-          # password: your-git-password/token
+           username: 'dodiamahesh'
+           password: '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'
           search-paths: # રિપોઝીટરીમાં રૂપરેખાંકન ફાઇલો ક્યાં શોધવી
             - 'configurations'

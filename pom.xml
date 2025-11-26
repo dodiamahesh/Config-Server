@@ -8,7 +8,8 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.0</version>
-		<relativePath/> </parent>
+		<relativePath/>
+	</parent>
 
 	<groupId>com.lms.config</groupId>
 	<artifactId>config-server</artifactId>
